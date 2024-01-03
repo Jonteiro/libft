@@ -33,8 +33,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 			return (0);
 		while (i < len)
 		{
-		new[i] = s[start + i];
-		i++;
+			new[i] = s[start + i];
+			i++;
 		}
 		new[i] = '\0';
 	}
