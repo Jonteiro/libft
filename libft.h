@@ -6,16 +6,19 @@
 /*   By: jsilveir <jsilveir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/08 13:57:27 by josilvei          #+#    #+#             */
-/*   Updated: 2024/10/28 15:51:39 by jsilveir         ###   ########.fr       */
+/*   Updated: 2025/04/03 14:47:16 by jsilveir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include "ft_printf/ft_printf.h"
+# include "ft_gnl/get_next_line.h"
 # include <stdlib.h>
 # include <stdio.h>
 # include <unistd.h>
+
 
 int		ft_atoi(const char *nptr);
 void	ft_bzero(void *s, size_t n);
